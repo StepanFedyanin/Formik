@@ -1,0 +1,70 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.App__container{
+	width: 350px;
+}
+.Form__header{
+	width: 100%;
+	border-bottom: 0.5px solid #A7A7AB;
+	margin-bottom: 40px;
+}
+.Form__header--item{
+	width: fit-content;
+	border-bottom: 5px solid #000000;
+}
+.Form__item{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.Field--item{
+	background: #FFFFFF;
+	border: 1px solid #0e0d0d;
+	border-radius: 4px;
+	padding: 12px;
+	margin-bottom: 44px;
+}
+.Form__item--lable{
+	font-family: 'Golos Text VF';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+}
+.Form__item--lable >span{
+	color: #E00000;
+}
+.Form__item--error{
+	position: absolute;
+	bottom: 20px;
+	font-family: 'Golos Text VF';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 22px;
+	color: #FF2E56;
+}
+.Form__submit{
+	width: 100%;
+	margin-top: 24px;
+}
+.Form__submit--btn{
+	background: #0061D9;
+	border-radius: 4px;
+	width: 100%;
+	border: none;
+	padding: 12px;
+	color: #FFFFFF;
+}
+.Form__submit--btn:hover{
+	background: #5593de;
+}
+.Form__submit--btn:active{
+	background: #0073ff;
+}
+
+
